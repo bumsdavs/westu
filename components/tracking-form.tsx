@@ -87,7 +87,7 @@ export default function TrackingForm({ onTrack, isTracking }: TrackingFormProps)
               value={digit}
               onChange={e => handleDigitChange(index, e.target.value)}
               onKeyDown={e => handleKeyDown(index, e)}
-              className="w-8 h-8 sm:w-12 sm:h-12 text-center text-lg sm:text-xl font-mono border-2 border-gray-300 focus:border-yellow-400 focus:ring-yellow-400"
+              className="w-8 h-8 p-0 sm:w-12 sm:h-12 text-center text-lg sm:text-xl font-mono border-2 border-gray-300 focus:border-yellow-400 focus:ring-yellow-400"
               maxLength={1}
             />
             {(index === 2 || index === 5) && <span className="mx-1 sm:mx-2 text-xl sm:text-2xl text-gray-400">-</span>}
